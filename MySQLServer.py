@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+
 """
 Creates the database alx_book_store in a MySQL server.
 """
@@ -8,7 +8,7 @@ from mysql.connector import Error
 
 def create_database():
     try:
-        # Connect to MySQL server (update credentials if needed)
+        
         connection = mysql.connector.connect(
             host="localhost",
             user="root",
