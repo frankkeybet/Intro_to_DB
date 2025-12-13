@@ -1,3 +1,1 @@
-mycursor.execute("SELECT * FROM alx_bookstore")
-myresult = mycursor.fetchall()
-print(myresult)
+SHOW TABLES FROM alx_book_store;
