@@ -1,13 +1,4 @@
 
--- Create the database if it doesn't already exist
-mycursor.execute("""
-CREATE DATABASE IF NOT EXISTS alx_book_store
-""")   
-
-
--- Select the database to use
-USE alx_book_store;
-
 -- --------------------------------------------------------
 -- Table structure for Authors
 -- --------------------------------------------------------
